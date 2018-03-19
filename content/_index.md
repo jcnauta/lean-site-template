@@ -1,4 +1,4 @@
-<p class="lead">We're a group of Londoners who want to help you answer the question: how can I do good better?</p>
+<p class="lead">We're a group of Groningers who want to help you answer the question: how can I do good better?</p>
 
 <container>
   <div class="row align-items-center">

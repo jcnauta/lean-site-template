@@ -1,4 +1,4 @@
-baseURL = "http://jellenauta.com/ea-groningen-ng"
+baseURL = "https://raw.githubusercontent.com/jcnauta/lean-site-template/master/static/img/city-banner.jpg"
 languageCode = "en-us"
 title = "EA Groningen"
 theme = "local-ea-template"
