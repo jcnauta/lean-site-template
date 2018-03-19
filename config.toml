@@ -29,9 +29,9 @@ DefaultContentLanguage = "en"
 
   ## -- EA GROUP INFO -- ##
   [Languages.en.groupinfo]
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
-  contactEmail = "yourEAGroupEmail@here.com"
+  legalOrgName = "Effective Altruism Groningen"
+  orgLocations = "Groningen"
+  contactEmail = "mail@eagroningen.com"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -73,10 +73,10 @@ DefaultContentLanguage = "en"
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
-  firstButtonText = "Join us on Facebook"
-  firstButtonLink = "https://www.facebook.com/groups/EffectiefAltruismeGroningen/"
-  secondButtonText = "Second Button Text"
-  secondButtonLink = ""
+  #firstButtonText = "Join us on Facebook"
+  #firstButtonLink = "https://www.facebook.com/groups/EffectiefAltruismeGroningen/"
+  #secondButtonText = "Second Button Text"
+  #secondButtonLink = ""
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
 
@@ -84,6 +84,6 @@ DefaultContentLanguage = "en"
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
-  facebookUrl = ""
-  twitterUrl = ""
-  meetupUrl = ""
+  facebookUrl = "https://www.facebook.com/groups/EffectiefAltruismeGroningen/"
+  #twitterUrl = ""
+  meetupUrl = "https://www.meetup.com/Effective-Altruism-Groningen/"
