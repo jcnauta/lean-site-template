@@ -1,0 +1,129 @@
+baseURL = "http://example-domain.org"
+theme = "local-ea-template"
+
+DefaultContentLanguage = "en"
+
+  [params]
+
+  [Languages]
+  [Languages.en]
+  languageCode = "en"
+  title = "Local EA Website"
+  weight = 1
+
+  [Languages.en.general]
+  ## -- GENERAL SITE PARAMETERS -- ##
+  fullTitle = "EA Is Awesome"
+  strapline = "Helping you do good better"
+
+  ## -- EA GROUP INFO -- ##
+  [Languages.en.groupinfo]
+  legalOrgName = "Effective Altruism Awesomeville"
+  orgLocations = "Awesometown"
+  registeredCharityNumber = "3.14159"
+  contactEmail = "awesome@ea.com"
+
+  [Languages.en.navbar]
+  ## -- NAVIGATION BAR HEADERS -- ##
+  home = "Home"
+  faq = "FAQ"
+  effectiveAltruism = "Effective Altruism"
+  aboutEA = "About EA"
+  readingMaterial = "Reading Material"
+  keyTerms = "Key Terms"
+  organizations = "Organizations"
+  contact= "Contact"
+
+  [Languages.en.pages]
+  ## -- Page Headers -- ##
+  aboutPageHeader = "About us"
+  contactPageHeader = "Contact us"
+  aboutEAPageHeader = "What is Effective Altruism?"
+
+  [Languages.en.homepage]
+   ## -- HOMEPAGE -- ##
+  topBannerText = "Who are we?"
+  leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
+  firstSectionHeader = "Doing good better"
+  secondSectionHeader = "Building a community"
+  thirdSectionHeader = "Finding better ways to help"
+  bottomBannerText = "A proud member of the effective altruism network"
+
+  [Languages.en.contactform]
+  leadText = "Say hi!"
+  senderName = "Your name (required)"
+  senderEmail = "Your email (required)"
+  emailSubject = "Subject"
+  emailMessage = "Your Message:"
+  send = "Send"
+
+  [Languages.en.jumbotron]
+  firstButtonText = "Follow our mailing list"
+  firstButtonLink = "http://www.mailinglist.link/12345"
+  secondButtonText = "Join us on Facebook"
+  secondButtonLink = "http://www.facebook.com/someEAFacebookGroup"
+  meetupButtonText = "Find us on Meetup"
+
+  [Languages.en.urls]
+  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
+  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  #twitterUrl = ""
+  meetupUrl = "http://www.meetup.com/someEAMeetupGroup"
+
+  [Languages.de]
+  languageCode = "de"
+  title = "Die beste EA Webseite"
+  weight = 2
+
+
+  [Languages.de.general]
+  fullTitle = "EA ist das Beste"
+  strapline = "Habe ich nicht schon gesagt, dass EA ist das Beste?!"
+
+  [Languages.de.groupinfo]
+  legalOrgName = "Effective Altruism Awesomeville"
+  orgLocations = "Awesometown"
+  registeredCharityNumber = "3.14159"
+  contactEmail = "awesome@ea.com"
+
+  [Languages.de.navbar]
+  home = "Heim"
+  faq = "FAQ"
+  effectiveAltruism = "Effektiven Altruismus"
+  aboutEA = "Über EA"
+  readingMaterial = "Lesestoff"
+  keyTerms = "Wortliste"
+  organizations = "Organisationen"
+  contact= "Kontakte"
+
+  [Languages.de.pages]
+  contactPageHeader = "Wenden Sie sich an uns"
+  aboutEAPageHeader = "Was ist Effektiven Altruismus?"
+
+  [Languages.de.homepage]
+  topBannerText = "Wer sind wir?"
+  leadText = "Wir wollen die Welt besser helfen"
+  firstSectionHeader = "Mein deutsch..."
+  secondSectionHeader = "...ist echt nicht so gut"
+  thirdSectionHeader = "Also geb ich auf"
+  bottomBannerText = "..und so weiter"
+
+  [Languages.de.contactform]
+  leadText = "Sagen Sie Hallo!"
+  senderName = "Deine Name(required)"
+  senderEmail = "Dein Email (required)"
+  emailSubject = "Subjekt"
+  emailMessage = "Deine Nachricht:"
+  send = "Schicken"
+
+  [Languages.de.jumbotron]
+  firstButtonText = "Folgen Sie uns"
+  firstButtonLink = "http://www.mailinglist.link/12345"
+  secondButtonText = "Finden Sie uns auf Facebook"
+  secondButtonLink = "http://www.facebook.com/someEAFacebookGroup"
+  meetupButtonText = "Finden Sie uns auf Meetup"
+
+  [Languages.de.urls]
+  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  #twitterUrl = ""
+  meetupUrl = "http://www.meetup.com/someEAMeetupGroup"
