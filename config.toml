@@ -37,16 +37,6 @@ DefaultContentLanguage = "en"
   # You probably don't need/want to change these,
   # but if you do you'll also want to change the relevant .md file under the
   # content folder so the copy corresponds with the header.
-  
-
-  #home = "Home"
-  #faq = "FAQ"
-  #effectiveAltruism = "Effective Altruism"
-  #aboutEA = "About EA"
-  #readingMaterial = "Reading Material"
-  #keyTerms = "Key Terms"
-  #organizations = "Organizations"
-  #contact= "Contact"
 
   effectiveAltruism = "Effective Altruism"
   principles = "Principles"
