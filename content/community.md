@@ -1,7 +1,7 @@
 ---
 title: "Community"
 date: 2018-06-15T01:17:46+02:00
-draft: true
+draft: false
 ---
 
 EA-Groningen is een community en netwerk voor alle EA'ers in Groningen en omgeving.  

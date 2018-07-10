@@ -1,7 +1,7 @@
 ---
 title: "Principles"
 date: 2018-06-15T01:16:28+02:00
-draft: true
+draft: false
 ---
 
 Effectief Altruïsme (EA) is een altruïstische beweging en filosofie die wetenschap en logisch redeneren combineert met het hart. EA is voortdurend op zoek naar de meest effectieve manieren om de wereld te verbeteren. Vervolgens handelt het hier naar. EA wil mensen en organisaties aanmoedigen en in staat stellen om zoveel- en effectief mogelijk goed te doen.

@@ -1,7 +1,7 @@
 ---
 title: "Organization"
 date: 2018-06-15T01:17:34+02:00
-draft: true
+draft: false
 ---
 
 EA-Groningen bestaat momenteel uit acht actieve organisatoren. Drie hiervan vormen tevens het bestuur.

@@ -1,7 +1,7 @@
 ---
 title: "What Do We Do"
 date: 2018-06-15T01:17:57+02:00
-draft: true
+draft: false
 ---
 
 EA-Groningen geeft voorlichting, adviezen en coaching aan individuen en groepen (waaronder ook instanties). Dit gebeurt op de volgende onderdelen:

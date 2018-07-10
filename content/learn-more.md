@@ -1,7 +1,7 @@
 ---
 title: "Learn More"
 date: 2018-06-15T01:16:39+02:00
-draft: true
+draft: false
 ---
 
 Lees een boek! Onderstaande boeken leent EA-Groningen uit.  
