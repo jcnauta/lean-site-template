@@ -1,0 +1,12 @@
+<section class="jumbotron text-center">
+  <div class="container">
+    <img id="ea-main-logo" src="{{ .Site.BaseURL}}/img/ea_logo.png"/>
+    <h1 class="jumbotron-heading">{{ .Site.Params.general.fullTitle }}</h1>
+    <p class="lead text-muted">{{ .Site.Params.general.strapline }}</p>
+    {{ if isset .Site.Params.jumbotron "meetupbuttontext" }}
+      <p>
+        <a href="{{ .Site.Params.urls.meetupUrl }}" class="btn btn-danger">{{ .Site.Params.jumbotron.meetupButtonText }}</a>
+      </p>
+    {{ end }}
+  </div>
+</section>
