@@ -11,37 +11,28 @@
             <a class="nav-link" href="{{ "/" | absLangURL }}">{{ .Site.Params.navbar.Home }} <span class="sr-only">(current)</span></a>
           </li>
           <div class="dropdown">
-           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EffectiveAltruism }}<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="{{ "principles" | absLangURL }}">{{ .Site.Params.navbar.principles }}</a></li>
-               <li><a href="{{ "learn-more" | absLangURL }}">{{ .Site.Params.navbar.learnMore }}</a></li>
-             </ul>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.eaGroningen }}<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ "who-are-we" | absLangURL }}">{{ .Site.Params.navbar.whoAreWe }}</a></li>
+              <li><a href="{{ "what-do-we-do" | absLangURL }}">{{ .Site.Params.navbar.whatDoWeDo }}</a></li>
+              <li><a href="{{ "organization" | absLangURL }}">{{ .Site.Params.navbar.organization }}</a></li>
+            </ul>
           </div>
-
           <div class="dropdown">
-           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EAGroningen }}<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-               <li><a href="{{ "goals" | absLangURL }}">{{ .Site.Params.navbar.goals }}</a></li>
-               <li><a href="{{ "community" | absLangURL }}">{{ .Site.Params.navbar.community }}</a></li>
-               <li><a href="{{ "what-do-we-do" | absLangURL }}">{{ .Site.Params.navbar.whatDoWeDo }}</a></li>
-               <li><a href="{{ "organization" | absLangURL }}">{{ .Site.Params.navbar.organization }}</a></li>
-
-               <li><a href="{{ "effective-altruism" | absLangURL }}">{{ .Site.Params.navbar.AboutEA }}</a></li>
-               <li><a href="{{ "key-terms" | absLangURL }}">{{ .Site.Params.navbar.KeyTerms }}</a></li>
-               <li><a href="{{ "reading-material" | absLangURL }}">{{ .Site.Params.navbar.ReadingMaterial }}</a></li>
-             </ul>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.effectiveAltruism }}<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ "principles" | absLangURL }}">{{ .Site.Params.navbar.principles }}</a></li>
+              <li><a href="{{ "learn-more" | absLangURL }}">{{ .Site.Params.navbar.learnMore }}</a></li>
+            </ul>
           </div>
-
-          <div class="dropdown">
-           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.GetInvolved }}<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="{{ "individuals" | absLangURL }}">{{ .Site.Params.navbar.individuals }}</a></li>
-               <li><a href="{{ "organizations" | absLangURL }}">{{ .Site.Params.navbar.organizations }}</a></li>
-             </ul>
-          </div>
-
           <li class="nav-item">
-              <a class="nav-link" href="{{ "contact" | absLangURL }}">{{ .Site.Params.navbar.Contact }}</a>
+            <a class="nav-link" href="{{ "get-involved" | absLangURL }}">{{ .Site.Params.navbar.getInvolved }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "contact" | absLangURL }}">{{ .Site.Params.navbar.contact }}</a>
+          </li>
+          <li class="nav-item" style="padding-right: 40px">
+            <a class="nav-link" href="{{ "faq" | absLangURL }}">{{ .Site.Params.navbar.faq }}</a>
           </li>
           {{ partial "allLanguages.html" . }}
         </ul>

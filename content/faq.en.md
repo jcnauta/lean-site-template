@@ -1,20 +1,12 @@
 ---
-title: "FAQ"
+title: "Frequently Asked Questions"
 date: 2017-12-27T02:15:52-08:00
 draft: false
 ---
-
-## Frequently Asked Questions
 <br>
-
 #### So what is effective altruism?  
 
-
-The core idea:  
-
-
-**Effective altruism is using evidence and analysis to take actions that help others as much as possible.**
-
+The core idea:  **Effective altruism is using evidence and analysis to take actions that help others as much as possible.**
 
 The world has a lot of horrible problems but we can’t work on them all at once. Our goal is to accomplish the most good for the world with our limited time, energy, and resources.
 

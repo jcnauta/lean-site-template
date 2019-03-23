@@ -1,0 +1,7 @@
+{{ if .Site.IsMultiLingual }}
+  {{ range $lang := .Site.Languages }}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ delimit (slice "/" .) "" }}"><span class="flag-icon flag-icon-{{if eq .Lang "en" }}gb{{ else }}{{ $lang }}{{ end }}"> </span> {{ . }}</a>
+    </li>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+<div class="container regular-page-container">
+      <h2>{{ with .Site.GetPage "page" "who-are-we" }}{{ .Title | markdownify }}{{ end }}</h2>
+			{{ with .Site.GetPage "page" "who-are-we" }}{{ .Content | markdownify }}{{ end }}
+</div>
+
+{{ partial "footer.html" . }}
